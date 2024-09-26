@@ -63,6 +63,8 @@ DoctorPatient/
 - **POST** `/auth/login` – Log in a user (Doctor or Patient).
 ![Login Doctor/Patient](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/login.jpg?raw=true)
 
+
+
 ### Appointment Management (AppAPI)
 
 - **POST** `/appointment/new` – Patients can book a new appointment (authentication and authorization required).
@@ -73,6 +75,8 @@ DoctorPatient/
 ![Approve Appointment](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/approveAppointment.jpg?raw=true)
 - **PATCH** `/appointment/reject?id=APPOINTMENT_ID` – Reject an appointment (Doctor authorization required).
 ![Reject Appointment](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/rejectAppointment.jpg?raw=true)
+
+
 
 ### Prescription Management (PerAPI)
 
@@ -86,6 +90,8 @@ DoctorPatient/
 ![Update Medication](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/updateMedication.jpg?raw=true)
 - **DELETE** `/per/delete-medication?per_id=PER_ID&med_id=MED_ID` – Delete a specific medication from a prescription.
 ![Delete Medication](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/deleteMedication.jpg?raw=true)
+
+
 
 ## Installation & Setup
 
