@@ -57,7 +57,7 @@ DoctorPatient/
 ### Authentication (Auth)
 
 - **POST** `/auth/doc/register` – Register a new Doctor.
-- ![Register Doctor](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/updateMedication.jpg?raw=true)
+![Register Doctor](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/updateMedication.jpg?raw=true)
 - **POST** `/auth/pat/register` – Register a new Patient.
 - **POST** `/auth/login` – Log in a user (Doctor or Patient).
 
