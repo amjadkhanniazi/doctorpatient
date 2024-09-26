@@ -59,21 +59,33 @@ DoctorPatient/
 - **POST** `/auth/doc/register` – Register a new Doctor.
 ![Register Doctor](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/updateMedication.jpg?raw=true)
 - **POST** `/auth/pat/register` – Register a new Patient.
+![Register Patient](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/patRegister.jpg?raw=true)
 - **POST** `/auth/login` – Log in a user (Doctor or Patient).
+![Login Doctor/Patient](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/login.jpg?raw=true)
 
 ### Appointment Management (AppAPI)
 
 - **POST** `/appointment/new` – Patients can book a new appointment (authentication and authorization required).
+![New Appointment](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/newAppointment.jpg?raw=true)
 - **DELETE** `/appointment/delete?id=APPOINTMENT_ID` – Delete an appointment (authentication required).
+![Delete Appointment](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/deleteAppointment.jpg?raw=true)
 - **PATCH** `/appointment/approve?id=APPOINTMENT_ID` – Approve an appointment (Doctor authorization required).
+![Approve Appointment](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/approveAppointment.jpg?raw=true)
 - **PATCH** `/appointment/reject?id=APPOINTMENT_ID` – Reject an appointment (Doctor authorization required).
+![Reject Appointment](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/rejectAppointment.jpg?raw=true)
 
 ### Prescription Management (PerAPI)
 
 - **POST** `/per/new` – Doctors can create a new prescription for a patient.
+![Add New Perscription](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/addPerscription.jpg?raw=true)
+- **Delete**`/per/delete` – Doctors can Delete a prescription for a patient.
+![Delete Perscription](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/deletePerscription.jpg?raw=true)
 - **PATCH** `/per/add-medication?id=PER_ID` – Add medication to an existing prescription.
+![Add Medication](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/addMedication.jpg?raw=true)
 - **PATCH** `/per/update-medication?per_id=PER_ID&med_id=MED_ID` – Update a specific medication in a prescription.
+![Update Medication](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/updateMedication.jpg?raw=true)
 - **DELETE** `/per/delete-medication?per_id=PER_ID&med_id=MED_ID` – Delete a specific medication from a prescription.
+![Delete Medication](https://github.com/amjadkhanniazi/doctorpatient/blob/add-screenshots-folder/deleteMedication.jpg?raw=true)
 
 ## Installation & Setup
 
