@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import { Schema } from "mongoose";
+import PrescriptionPicSchema from "./perscriptionPic.js"
 
 const PrescriptionSchema = new Schema({
   doctor: {
@@ -41,7 +42,8 @@ const PrescriptionSchema = new Schema({
   prescribedAt: {
     type: Date,
     default: Date.now
-  }
+  },
+  perscriptionPic: PrescriptionPicSchema
 });
 
 export default mongoose.model('Prescription', PrescriptionSchema);
